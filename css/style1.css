@@ -1,0 +1,97 @@
+html {
+  background-color: #f0f0f0; /* Warna latar belakang yang lembut */
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Font yang lebih modern */
+}
+a {
+  text-decoration: none;
+  color: #333; /* Warna teks yang lebih gelap untuk kontras */
+}
+.fixed-bar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #54aaff; /* Warna header yang lebih terang */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan di bawah header */
+}
+.page-title {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  color: white; /* Teks putih pada header */
+}
+
+/* main */
+.trip-text {
+  background-color: #fff5e1; /* Warna latar belakang lebih cerah */
+  padding: 20px;
+  margin: 100px 0 20px; /* Sedikit jarak dari header */
+  display: flex;
+  justify-content: space-around; /* Rata tengah dengan jarak */
+  border-radius: 10px; /* Sudut melengkung */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+.trip-text p {
+  margin: 0;
+  width: 45%;
+  text-align: center;
+  font-size: 18px; /* Ukuran font yang lebih besar */
+}
+.trip-image {
+  display: flex;
+  justify-content: center; /* Rata tengah gambar */
+  margin-bottom: 20px; /* Jarak bawah untuk tag line */
+}
+.trip-image img {
+  width: 45%; /* Ukuran gambar dikurangi sedikit */
+  height: auto; /* Menjaga proporsi gambar */
+  border-radius: 10px; /* Sudut melengkung untuk gambar */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Bayangan lembut */
+}
+.tagline {
+  text-align: center;
+  background-color: #fff5e1; /* Sama dengan warna trip-text */
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px; /* Sudut melengkung */
+  font-size: 20px; /* Ukuran font yang lebih besar untuk tag line */
+}
+
+.navigation {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #333; /* Latar belakang menu */
+}
+.navigation li {
+  display: inline-block;
+  margin: 0 10px; /* Jarak antar menu */
+}
+.navigation a {
+  color: white;
+  padding: 10px 15px; /* Padding untuk tombol menu */
+  background-color: #d8b185; /* Warna latar belakang menu */
+  border-radius: 5px; /* Sudut melengkung */
+  transition: background-color 0.3s; /* Transisi saat hover */
+}
+.navigation a:hover {
+  background-color: #c89b6d; /* Warna saat mouse hover */
+}
+
+.sosial-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.sosial-media img {
+  width: 30px;
+  margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+.sosial-media span {
+  font-size: 14px; /* Ukuran font yang lebih kecil */
+}
+footer a {
+  text-align: center;
+}
